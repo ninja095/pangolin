@@ -3,9 +3,10 @@ const mongoose = require('mongoose');
 const userRoutes = require('./routers/user-routes');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+require('dotenv').config();
 
 
-const pass = "bnfRGpEtdF2UEpv4"
+const pass = process.env.PASS
 const PORT = process.env.PORT || 3000;
 const URL_DB = `mongodb+srv://ruslan:${pass}@cluster0.99ki78t.mongodb.net/pangolin?retryWrites=true&w=majority`;
 
