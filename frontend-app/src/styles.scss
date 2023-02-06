@@ -1,0 +1,46 @@
+
+
+.gradient-custom {
+  background: #6a11cb;
+  background: -webkit-linear-gradient(
+      to right,
+      rgba(106, 17, 203, 1),
+      rgba(37, 117, 252, 1)
+  );
+  background: linear-gradient(
+      to right,
+      rgba(106, 17, 203, 1),
+      rgba(37, 117, 252, 1)
+  );
+}
+
+.text-info:hover {
+  background: rgba(118, 150, 155, 0.18);
+}
+
+.text-info:active {
+  background: rgba(100, 149, 237, 0.35);
+  transform: scale(0.95);
+}
+
+.active {
+  background: rgba(59, 70, 138, 0.35);
+}
+button.btn.btn-role {
+  color: goldenrod;
+}
+button.btn.btn-role:hover {
+  color: gold;
+}
+button.btn.btn-friends:hover {
+  color: #aade06;
+}
+button.btn.btn-friends {
+  color: #5e8003;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

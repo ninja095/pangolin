@@ -1,0 +1,21 @@
+<div class="col-3 mx-2 mt-2">
+  <div class="card bg-dark text-white mt-2" style="border-radius: 1rem"
+  >
+    <div class="card-body p-2 text-center" *ngIf="user | async as user">
+      <div>
+        <section >
+          <h3 >{{user.name}}</h3>
+          <img src="assets/images/{{user.role}}.jpeg" width="200px" height="300px">
+          <div class="my-2">
+            <button class="btn btn-role mx-2 px-5" (click)="openDialogRole(user)">{{user.role}}</button>
+          </div>
+          <div class="my-2">
+            <button class="btn btn-friends mx-2 px-5 mb-3" (click)="openDialogFriends(user)">Friends</button>
+          </div>
+        </section>
+      </div>
+      <button class="btn btn-success" [routerLink]="['../']">Go Back</button>
+
+    </div>
+  </div>
+</div>
