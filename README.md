@@ -21,6 +21,9 @@
 <ul style="color: #13c513">
 <p style="color: deepskyblue">Implémenté par moi:</p>
 
+<p style="color: #c59b13">login: admin@mail.com</p>
+<p style="color: #c59b13">password: admin123</p>
+
 <li>Connexion / Déconnexion / Inscription de l'utilisateur</li>
 <li>La connexion se fait sur la page de l'utilisateur-administrateur, où il y a une liste de contacts.</li>
 <li>Chaque contact a sa propre page de détail.</li>
