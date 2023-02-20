@@ -15,6 +15,7 @@ import {MatDialogModule} from "@angular/material/dialog";
 import {MatSelectModule} from "@angular/material/select";
 import {MatInputModule} from "@angular/material/input";
 import {MatButtonModule} from "@angular/material/button";
+import { AddContactComponent } from './components/add-contact/add-contact.component';
 
 
 
@@ -27,7 +28,8 @@ import {MatButtonModule} from "@angular/material/button";
     ModalRolesComponent,
     ContactsDetailsComponent,
     ContactsComponent,
-    HomeComponent
+    HomeComponent,
+    AddContactComponent
   ],
   imports: [
     CommonModule,

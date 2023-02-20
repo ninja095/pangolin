@@ -1,0 +1,21 @@
+<form class="form-control " [formGroup]="addContactForm">
+  <div>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name">
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Password</mat-label>
+      <input matInput formControlName="password">
+    </mat-form-field>
+  </div>
+  <div>
+    <button class="mx-2" type="button" mat-raised-button color="primary" (click)="onClickAddContact()">Add</button>
+    <button class="mx-2" type="button" mat-raised-button color="primary" >Close</button>
+
+  </div>
+</form>
+
+

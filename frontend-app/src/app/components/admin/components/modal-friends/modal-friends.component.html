@@ -3,7 +3,10 @@
     <mat-form-field appearance="fill">
       <mat-label>Friends</mat-label>
       <mat-select  multiple  formControlName="selectedFriends">
-        <mat-option *ngFor="let user of users" [value]="user._id">{{user.name}}</mat-option>
+        <mat-option
+          *ngFor="let user of users" [value]="user._id"
+
+        >{{user.name}}</mat-option>
       </mat-select>
     </mat-form-field>
   </div>

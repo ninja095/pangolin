@@ -47,6 +47,7 @@ export class ContactsDetailsComponent implements OnInit {
     let dialogConfigFriends = new MatDialogConfig();
     dialogConfigFriends.data = user;
     dialogConfigFriends.disableClose = true
+
     const dialogRef = this.dialog.open(ModalFriendsComponent, dialogConfigFriends);
 
     dialogRef.afterClosed().subscribe(result => {
